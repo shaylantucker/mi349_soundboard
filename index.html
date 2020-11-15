@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>
+        Pick a Sound
+    </title>
+</head>
+
+<body><div class=title>
+    <h1 id="Hello" class="section-heading">Pick a Sound!</h1>
+</div>
+
+    <script>
+        function play() {
+           var audio = document.getElementById("audio");
+           audio.play();
+        }
+    </script>
+    
+    <div class="sounds">
+    <input type="button" value="Ride"  onclick="play()">
+    <audio id="audio" src= "Ride Cymbal 1.wav" ></audio>
+    
+    <input type="button" value="Crash"  onclick="play()">
+    <audio id="audio" src= "Crash A 1.wav" ></audio>
+
+    <input type="button" value="Splash"  onclick="play()">
+    <audio id="audio" src= "Splash 1.wav" ></audio></div>
+
+    <script src="soundboard.js"></script>
+</body>

@@ -1,0 +1,20 @@
+body {
+    background-color: grey;
+    font-family: Helvetica, sans-serif;
+}
+
+.sounds {
+    background-color: lightpink;
+    display: inline-block;
+    box-shadow: rgba(0,0,0, 0.1) 5px 5px 10px;
+    border-radius: 10%;
+}
+
+.title {
+    font-family: Helvetica, sans-serif;
+    color: lightpink;
+    background-color: white;
+    margin: 15px 0px;
+    padding: 5px 5px;
+    text-align: center;
+}
